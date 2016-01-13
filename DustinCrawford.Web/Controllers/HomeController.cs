@@ -8,10 +8,21 @@ namespace DustinCrawford.Web.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        // GET: Index
         public ActionResult Index()
         {
             return View();
         }
+
+        public ActionResult Resume()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
     }
 }
