@@ -111,6 +111,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\business-casual.css" />
     <Content Include="Content\linkStyle.css" />
+    <Content Include="Content\paddingStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
