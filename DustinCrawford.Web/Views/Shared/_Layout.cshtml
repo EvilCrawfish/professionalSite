@@ -49,10 +49,23 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Home")</li>
-                    <li>@Html.ActionLink("About", "About")</li>
-                    <li>@Html.ActionLink("Contact", "Contact")</li>
+                <ul class="nav navbar-nav">        
+                                
+                    <li @if (ViewBag.NavPage == "Home") { @: class="active" 
+                                                    }>
+                        @Html.ActionLink("Home", "Home")
+                    </li>
+                    
+                    <li @if (ViewBag.NavPage == "About") { @: class="active"
+                                                    }>
+                        @Html.ActionLink("About", "About")
+                    </li>
+
+                    <li @if (ViewBag.NavPage == "Contact") { @: class="active"
+                                                    }>
+                        @Html.ActionLink("Contact", "Contact")
+                    </li>
+
                 </ul>
             </div>
         </div>
