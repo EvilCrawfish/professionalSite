@@ -122,6 +122,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="img\bg.png" />
+    <Content Include="img\usi_logo.png" />
+    <Content Include="img\zirmed_logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\TestDoc.docx" />
@@ -146,6 +148,7 @@
     <Content Include="Views\Navigation\Home.cshtml" />
     <Content Include="Views\Navigation\Resume.cshtml" />
     <Content Include="Views\Navigation\Contact.cshtml" />
+    <Content Include="Views\Navigation\About.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
