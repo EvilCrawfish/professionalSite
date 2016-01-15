@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- FontAwesome CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link href="~/Content/business-casual.css" rel="stylesheet">
     <link href="~/Content/linkStyle.css" rel="stylesheet" />
@@ -27,7 +29,7 @@
     <title>Dustin J Crawford</title>
 </head>
 <body>
-    <div class="brand"><a id="titleLink" href="http://www.dustinjcrawford.com">Dustin J Crawford</a></div>
+    <div class="brand"><a id="titleLink-header" href="http://www.dustinjcrawford.com">Dustin J Crawford</a></div>
     <div class="address-bar">204 Saddleback Drive | Charlestown, IN 47111 | 502.356.2489</div>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -49,6 +51,11 @@
                     <li @if (ViewBag.NavPage == "About") { @: class="active"
                                                     }>
                         @Html.ActionLink("About", "About")
+                    </li>
+
+                    <li @if (ViewBag.NavPage == "Projects") { @: class="active"
+                                                                            }>
+                        @Html.ActionLink("Projects", "Projects")
                     </li>
 
                     <li @if (ViewBag.NavPage == "Contact") { @: class="active"

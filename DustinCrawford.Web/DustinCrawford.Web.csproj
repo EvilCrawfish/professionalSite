@@ -150,6 +150,7 @@
     <Content Include="Views\Navigation\Resume.cshtml" />
     <Content Include="Views\Navigation\Contact.cshtml" />
     <Content Include="Views\Navigation\About.cshtml" />
+    <Content Include="Views\Navigation\Projects.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

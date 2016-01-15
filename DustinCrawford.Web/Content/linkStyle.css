@@ -1,2 +1,9 @@
-﻿#titleLink { color: white;
+﻿#titleLink-header { color: white;
+                    
 }
+
+#titleLink-inline {
+    color: black;
+}
+
+
