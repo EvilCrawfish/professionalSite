@@ -112,6 +112,8 @@
     <Content Include="Content\business-casual.css" />
     <Content Include="Content\Images\Immortia_WIP_6.png" />
     <Content Include="Content\Images\Immortia_WIP_7.png" />
+    <Content Include="Content\Images\runner_screen_1.PNG" />
+    <Content Include="Content\Images\runner_screen_2.PNG" />
     <Content Include="Content\linkStyle.css" />
     <Content Include="Content\paddingStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
