@@ -110,6 +110,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\business-casual.css" />
+    <Content Include="Content\Images\Immortia_WIP_6.png" />
+    <Content Include="Content\Images\Immortia_WIP_7.png" />
     <Content Include="Content\linkStyle.css" />
     <Content Include="Content\paddingStyle.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -127,7 +129,8 @@
     <Content Include="img\zirmed_logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Content\TestDoc.docx" />
+    <Content Include="Content\Documents\TestDoc.docx" />
+    <Content Include="Content\Documents\DustinCrawfordResume.pdf" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
