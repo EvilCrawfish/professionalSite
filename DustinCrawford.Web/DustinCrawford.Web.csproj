@@ -139,6 +139,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Global.asax.cs">
@@ -147,15 +148,20 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Layout.cshtml" />
     <Content Include="Views\Navigation\Home.cshtml" />
     <Content Include="Views\Navigation\Resume.cshtml" />
     <Content Include="Views\Navigation\Contact.cshtml" />
     <Content Include="Views\Navigation\About.cshtml" />
     <Content Include="Views\Navigation\Projects.cshtml" />
+    <Content Include="Views\Shared\Layouts\_GA.cshtml" />
+    <Content Include="Views\Shared\Layouts\_Footer.cshtml" />
+    <Content Include="Views\Shared\Layouts\_NavBar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

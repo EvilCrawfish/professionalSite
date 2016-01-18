@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using System.Web.Optimization;
+using System.Web.UI.WebControls;
+using DustinCrawford.Web.App_Start;
 
 namespace DustinCrawford.Web
 {
@@ -13,6 +16,7 @@ namespace DustinCrawford.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }
