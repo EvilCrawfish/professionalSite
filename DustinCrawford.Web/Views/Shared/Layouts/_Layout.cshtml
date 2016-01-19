@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/bundles/bootstrapcss")
+    @Styles.Render("~/bundles/facss")
+    @Styles.Render("~/bundles/localstyles")
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <title>Dustin J Crawford</title>
+</head>
+<body>
+    
+    @Html.Partial("Layouts/_NavBar")
+
+    @RenderBody()
+
+    @Html.Partial("Layouts/_Footer")
+    @Html.Partial("Layouts/_GA")
+
+    @Styles.Render("~/bundles/bootstrapjs")
+    @Styles.Render("~/bundles/jquery")
+</body>
+</html>
