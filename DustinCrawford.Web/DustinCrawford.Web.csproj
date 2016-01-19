@@ -163,7 +163,6 @@
     <Content Include="Views\Shared\Layouts\_GA.cshtml" />
     <Content Include="Views\Shared\Layouts\_Footer.cshtml" />
     <Content Include="Views\Shared\Layouts\_NavBar.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Error\Missing.cshtml" />
     <Content Include="Views\Error\Error.cshtml" />
     <None Include="Web.Debug.config">
