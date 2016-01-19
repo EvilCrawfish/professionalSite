@@ -141,6 +141,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -162,7 +163,9 @@
     <Content Include="Views\Shared\Layouts\_GA.cshtml" />
     <Content Include="Views\Shared\Layouts\_Footer.cshtml" />
     <Content Include="Views\Shared\Layouts\_NavBar.cshtml" />
-    <Content Include="Views\Shared\Error404.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Error\Missing.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

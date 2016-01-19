@@ -22,22 +22,22 @@
             <ul class="nav navbar-nav">
                 <li @if (ViewBag.NavPage == "Home") { @: class="active"
                                                                         }>
-                    @Html.ActionLink("Home", "Home")
+                    @Html.ActionLink("Home", "Home", "Navigation")
                 </li>
 
                 <li @if (ViewBag.NavPage == "About") { @: class="active"
                                                                         }>
-                    @Html.ActionLink("About", "About")
+                    @Html.ActionLink("About", "About", "Navigation")
                 </li>
 
                 <li @if (ViewBag.NavPage == "Projects") { @: class="active"
                                                                                                 }>
-                    @Html.ActionLink("Projects", "Projects")
+                    @Html.ActionLink("Projects", "Projects", "Navigation")
                 </li>
 
                 <li @if (ViewBag.NavPage == "Contact") { @: class="active"
                                                                         }>
-                    @Html.ActionLink("Contact", "Contact")
+                    @Html.ActionLink("Contact", "Contact", "Navigation")
                 </li>
             </ul>
         </div>

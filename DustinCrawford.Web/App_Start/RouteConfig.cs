@@ -18,6 +18,12 @@ namespace DustinCrawford.Web
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Navigation", action = "Home", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Catchall",
+                url: "{*anything}",
+                defaults: new { controller = "Error", action = "Missing" }
+            );
         }
     }
 }
